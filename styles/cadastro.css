@@ -1,0 +1,51 @@
+.secao__cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1em 0 1em 2em;
+    gap: 1em;
+    background-color: var(--branco);
+    border-radius: none;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+
+.cadastro__titulo {
+    font-size: 1.1em;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+}
+
+.cadastro__texto {
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.cadastro__input {
+    width: 90%;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.cadastro__input::placeholder {
+    
+    background: url("../img/Email.svg") no-repeat;
+    font-size: 1.1em;
+    font-family: var(--fonte-principal);
+    text-align: left;
+    padding-left: 3em;
+    background-position: .5em;
+}
+
+.rodape__cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em .5em 1em;
+    font-size: .6em;
+    font-family: var(--fonte-principal);
+    border-top: .00002em solid rgb(214, 211, 211);
+    margin-left: 0 !important;
+    background-color: var(--branco);
+}

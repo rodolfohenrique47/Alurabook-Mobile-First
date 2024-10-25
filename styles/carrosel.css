@@ -1,0 +1,105 @@
+.carrosel__titulo {
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    font-size: 1.50em;
+    color: var(--laranja);
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    background-color: var(--branco);
+    text-transform: uppercase;
+    
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card {
+    
+    
+    width: 91%;
+    background-color: var(--branco);
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+}
+
+.card-descricao {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.card-descricao-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card-titulo {
+    font-weight: 700;
+    color: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+}
+
+.card-subtitulo {
+    color: var(--azul);
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+
+}
+
+.card-texto {
+    font-size: .9em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    width: 90%;
+}
+
+.card-img-botao {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.imagem__card {
+
+    width: 80%;
+}
+
+.card-saiba-mais {
+    padding: 1em 2.3em;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: var(--laranja);
+}
+
+.card-descricao-estrelinhas {
+    width: 60%;
+}
+

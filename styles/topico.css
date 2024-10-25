@@ -1,0 +1,38 @@
+.secao_topico {
+    background: var(--azul-gradiente);
+    
+    
+}
+
+.topico__titulo {
+    font-size: var(--fonte-principal);
+    font-size: 1em;
+    text-align: center;
+    color: var(--branco);
+    margin: .5em 0;
+}
+
+.topico__container {
+    margin: 2em 0;
+}
+
+.topico__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    margin: 3em 0;
+    justify-content: center;
+}
+
+.item__link {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 0.7em .6em;
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+
+
